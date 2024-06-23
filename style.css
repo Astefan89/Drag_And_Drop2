@@ -1,0 +1,55 @@
+.draggable {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #222;
+    border: 1px solid #0f0; 
+    cursor: grab;
+    transition: background-color 0.3s ease;
+    color: white;
+  }
+  
+  .draggable:hover {
+    background-color: #333; 
+  }
+  
+  #blank {
+    background-color: #222;
+    border: none;
+    border-bottom: 1px solid #0f0; 
+    color: inherit;
+    font-family: 'Orbitron', sans-serif; 
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+    
+  }
+  
+  button {
+    background-color: #0f0; 
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.8; /* Slight dim on hover for interaction feedback */
+  }
+  
+  #answerMessage {
+    display: none; /* Initially hidden */
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+  
+  /* Additional styles for correct/incorrect messages */
+  .correct {
+    color: #0f0; /* Green for correct */
+  }
+  
+  .incorrect {
+    color: #f00; /* Red for incorrect */
+  }
